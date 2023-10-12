@@ -15,4 +15,5 @@ In your `deno.json` file, you can set it to run along with the `start` command:
 
     "start": "deno run -A --watch=sections/,functions/ dev.ts & deno run -A ./scripts/organizer.ts"
 
+**Here(File)**: [tailwind-class-organizer.ts](https://github.com/devartes/Multi-Tool/blob/main/typescript/tailwind-class-organizer/tailwind-class-organizer.ts)
  
