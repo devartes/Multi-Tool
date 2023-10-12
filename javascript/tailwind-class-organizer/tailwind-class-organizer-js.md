@@ -17,6 +17,9 @@ To use this code in a Node.js environment, follow these steps:
 
 `node organizer.js components/Layout.tsx`
 
+
+**Here(File)**: [tailwind-class-organizer.js](https://github.com/devartes/Multi-Tool/blob/main/javascript/tailwind-class-organizer/tailwind-class-organizer.js)
+
 After running the command, you will see the following message in the console:
 
 ![image](https://github.com/devartes/Multi-Tool/assets/76822093/6b702acd-93a4-49e4-98fa-33dc5225e24f)
