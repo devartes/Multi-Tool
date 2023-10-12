@@ -19,7 +19,7 @@ In your `deno.json` file, you can set it to run along with the `start` command:
 
 **Here(File)**: [tailwind-class-organizer.ts](https://github.com/devartes/Multi-Tool/blob/main/typescript/tailwind-class-organizer/tailwind-class-organizer.ts)
 
-**The command to run the code is:**: `deno task start`
+**The command to run the code is:** `deno task start`
 
 After running the command, you will see the following message in the console:
 
