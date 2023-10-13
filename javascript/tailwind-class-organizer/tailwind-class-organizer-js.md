@@ -21,14 +21,16 @@ To use this code in a Node.js and Deno environment, follow these steps:
 
 After running the command, you will see the following message in the console:
 
-![image](https://github.com/devartes/Multi-Tool/assets/76822093/6b702acd-93a4-49e4-98fa-33dc5225e24f)
+![image](https://github.com/devartes/Multi-Tool/assets/76822093/3f02d7ab-2077-45d0-bec1-7b1aa0f37bca)
 
 **Before command:**
 
-![image](https://github.com/devartes/Multi-Tool/assets/76822093/cbd9e072-7944-4ff3-9bd9-8d9671ba9b08)
+![image](https://github.com/devartes/Multi-Tool/assets/76822093/3e20bf7a-7e7e-40c3-9b78-9ed64ee2af96)
+
 
 **After the command:**
 
-![image](https://github.com/devartes/Multi-Tool/assets/76822093/138f3c15-10a1-45b1-95ee-646696ce653e)
+![image](https://github.com/devartes/Multi-Tool/assets/76822093/043ca71f-e329-4f34-a975-2f466e9d7612)
+
 
 
