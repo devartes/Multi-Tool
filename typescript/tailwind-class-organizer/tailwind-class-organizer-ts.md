@@ -11,11 +11,11 @@ In your `deno.json` file, you can set it to run along with the `start` command:
 
 <img src="https://github.com/devartes/Multi-Tool/blob/main/images/svg/deno-logo.svg"> <img src="https://github.com/devartes/Multi-Tool/blob/main/images/svg/fresh.svg" width="30px" height="30px"> Default:
 
-    "start": "deno run -A --watch=static/,routes/ dev.ts & deno run -A ./scripts/organizer.ts"
+    "start": "deno run -A --watch=static/,routes/ dev.ts & deno run -A ./scripts/tailwind-class-organizer.ts"
 
 <img src="https://github.com/devartes/Multi-Tool/blob/main/images/svg/deco-cx.svg" width="30px" height="30px"> deco.cx:
 
-    "start": "deno run -A --watch=sections/,functions/ dev.ts & deno run -A ./scripts/organizer.ts"
+    "start": "deno run -A --watch=sections/,functions/ dev.ts & deno run -A ./scripts/tailwind-class-organizer.ts"
 
 **Here(File)**: [tailwind-class-organizer.ts](https://github.com/devartes/Multi-Tool/blob/main/typescript/tailwind-class-organizer/tailwind-class-organizer.ts)
 
