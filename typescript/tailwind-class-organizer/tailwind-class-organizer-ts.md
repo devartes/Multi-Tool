@@ -23,15 +23,17 @@ In your `deno.json` file, you can set it to run along with the `start` command:
 
 After running the command, you will see the following message in the console:
 
-![image](https://github.com/devartes/Multi-Tool/assets/76822093/c8e0c67e-65f7-491e-8bfc-48c45fa14bbe)
+![image](https://github.com/devartes/Multi-Tool/assets/76822093/f1ee806f-2829-47f1-b490-8181814d0fcc)
+
 
 **Before command:**
 
-![image](https://github.com/devartes/Multi-Tool/assets/76822093/cbd9e072-7944-4ff3-9bd9-8d9671ba9b08)
+![image](https://github.com/devartes/Multi-Tool/assets/76822093/3e20bf7a-7e7e-40c3-9b78-9ed64ee2af96)
+
 
 **After the command:**
 
-![image](https://github.com/devartes/Multi-Tool/assets/76822093/138f3c15-10a1-45b1-95ee-646696ce653e)
+![image](https://github.com/devartes/Multi-Tool/assets/76822093/043ca71f-e329-4f34-a975-2f466e9d7612)
 
 
 
