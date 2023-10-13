@@ -24,3 +24,12 @@ After running the command, you will see the following message in the console:
 
 ![image](https://github.com/devartes/Multi-Tool/assets/76822093/6b702acd-93a4-49e4-98fa-33dc5225e24f)
 
+**Before command:**
+
+![image](https://github.com/devartes/Multi-Tool/assets/76822093/cbd9e072-7944-4ff3-9bd9-8d9671ba9b08)
+
+**After the command:**
+
+![image](https://github.com/devartes/Multi-Tool/assets/76822093/138f3c15-10a1-45b1-95ee-646696ce653e)
+
+
