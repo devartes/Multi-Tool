@@ -1,3 +1,5 @@
+ ## Cleaning and correction
+ 
  - `chkdsk c:/f`  </br> </br>
       use in cmd as administrator </br>
       runs a disk check on hard drive C: and fixes errors , it may take long hours to complete the process
