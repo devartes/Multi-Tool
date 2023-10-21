@@ -13,9 +13,12 @@
 
 
 Index:
-
-TypeScript:
-  - [Tailwind Class Organizer](https://github.com/devartes/Multi-Tool/blob/main/typescript/tailwind-class-organizer/tailwind-class-organizer-ts.md)
   
 JavaScript:
   - [Tailwind Class Organizer](https://github.com/devartes/Multi-Tool/blob/main/javascript/tailwind-class-organizer/tailwind-class-organizer-js.md)
+
+TypeScript:
+  - [Tailwind Class Organizer](https://github.com/devartes/Multi-Tool/blob/main/typescript/tailwind-class-organizer/tailwind-class-organizer-ts.md)
+
+Windows:
+  - [Commands](https://github.com/devartes/Multi-Tool/blob/main/Windows/commands.md)
