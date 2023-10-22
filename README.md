@@ -21,4 +21,4 @@ TypeScript:
   - [Tailwind Class Organizer](https://github.com/devartes/Multi-Tool/blob/main/typescript/tailwind-class-organizer/tailwind-class-organizer-ts.md)
 
 Windows:
-  - [Commands](https://github.com/devartes/Multi-Tool/blob/main/Windows/commands.md)
+  - [Commands](https://github.com/devartes/Multi-Tool/blob/main/windows/commands.md)
