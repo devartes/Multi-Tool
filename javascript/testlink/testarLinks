@@ -1,23 +1,34 @@
 function testLinks() {
   var links = document.querySelectorAll('a');
+  var linkResults = [];
+
   links.forEach(function(link) {
-    if (!link.hasAttribute('href')) {
-      console.log('Link sem atributo href:', link);
+    if (!link.hasAttribute('href') || link.getAttribute('href') === '') {
+      linkResults.push({ href: '', location: link.outerHTML, status: 'Error' });
       return;
     }
+    
     var xhr = new XMLHttpRequest();
     xhr.open('GET', link.href, true);
     xhr.onload = function() {
       if (xhr.status >= 200 && xhr.status < 300) {
-        console.log('Link OK:', link.href);
+        linkResults.push({ href: link.href, location: link.outerHTML, status: 'OK' });
       } else {
-        console.error('Link com erro:', link.href);
+        linkResults.unshift({ href: link.href, location: link.outerHTML, status: 'Error' });
       }
+      displayTable(linkResults);
     };
     xhr.onerror = function() {
-      console.error('Erro ao tentar acessar o link:', link.href);
+      linkResults.unshift({ href: link.href, location: link.outerHTML, status: 'Error' });
+      displayTable(linkResults);
     };
     xhr.send();
   });
 }
-testLinks();
+
+function displayTable(linkResults) {
+  console.clear();
+  console.table(linkResults, ['status', 'href', 'location'], ['width: 80px', 'width: 80px', '']);
+}
+
+testLinks();  
