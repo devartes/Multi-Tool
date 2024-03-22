@@ -1,0 +1,23 @@
+function testLinks() {
+  var links = document.querySelectorAll('a');
+  links.forEach(function(link) {
+    if (!link.hasAttribute('href')) {
+      console.log('Link sem atributo href:', link);
+      return;
+    }
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', link.href, true);
+    xhr.onload = function() {
+      if (xhr.status >= 200 && xhr.status < 300) {
+        console.log('Link OK:', link.href);
+      } else {
+        console.error('Link com erro:', link.href);
+      }
+    };
+    xhr.onerror = function() {
+      console.error('Erro ao tentar acessar o link:', link.href);
+    };
+    xhr.send();
+  });
+}
+testLinks();
