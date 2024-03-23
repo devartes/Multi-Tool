@@ -15,6 +15,7 @@
 Index:
   
 JavaScript:
+  - [Link Checker](https://github.com/devartes/Multi-Tool/blob/main/javascript/testlink/testlink.md)
   - [Tailwind Class Organizer](https://github.com/devartes/Multi-Tool/blob/main/javascript/tailwind-class-organizer/tailwind-class-organizer-js.md)
 
 TypeScript:
